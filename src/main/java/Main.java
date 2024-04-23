@@ -10,7 +10,7 @@ public class Main {
         }
         System.out.println(porsche.speed);
 
-        Person jonas = new Person("Jonas", 29, "male" );
+        Person jonas = new Person("Otto", 77, "male" );
         jonas.introduction();
         Person ariel = new Person("Ariel", 99, "female" );
         ariel.introduction();
