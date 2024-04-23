@@ -9,6 +9,11 @@ public class Main {
             porsche.accelerate();
         }
         System.out.println(porsche.speed);
+
+        Person jonas = new Person("Jonas", 29, "male" );
+        jonas.introduction();
+        Person ariel = new Person("Ariel", 99, "female" );
+        ariel.introduction();
     }
 
 }
